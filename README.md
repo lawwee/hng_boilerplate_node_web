@@ -31,6 +31,14 @@ A boilerplate/starter project for quickly building RESTful APIs using Node.js an
 - ts-node-dev
 - [Other dependencies]
 
+## API Endpoints
+
+API endpoints were documented using Swagger. Access the documentation at [API Reference](https://hng-task3-docs.vercel.app/).
+
+## DATABASE DESIGN
+
+The database diagram was designed using draw.io. Access the diagram at [DATABASE DESIGN](https://drive.google.com/file/d/1IyFeshnpb1ToG6kat7CgKxWuEabK69__/view?usp=sharing)
+
 ## Getting Started
 
 Before you begin, ensure you have the following installed on your machine:
@@ -98,28 +106,6 @@ npm run start
 
 Open your browser and navigate to `http://localhost:3000/api/v1/` to verify that the application is running correctly.
 
-## Folder Structure
-
-Here's an overview of the project's folder structure:
-
-```
-|--- src
-|    |--- controllers
-          |--- v1
-|    |--- database
-|    |--- interfaces
-|    |--- middlewares
-|    |--- routes
-|         |--- v1
-|    |--- services
-|    |--- utils
-|    |--- server.ts
-|--- .env
-|--- app.ts
-|--- .gitignore
-|--- package.json
-|--- tsconfig.json
-```
 
 ## Scripts
 
@@ -138,14 +124,6 @@ Here are some useful npm scripts that you can use during development and product
 - [Express Documentation](https://expressjs.com/)
 
 By following these steps, you should have your Node.js and TypeScript application up and running. If you encounter any issues, please refer to the documentation of the respective tools or seek help from the community.
-
-## API Endpoints
-
-API endpoints were documented using Swagger. Access the documentation at [API Reference](https://hng-task3-docs.vercel.app/).
-
-## DATABASE DESIGN
-
-The database diagram was designed using draw.io. Access the diagram at [DATABASE DESIGN](https://drive.google.com/file/d/1IyFeshnpb1ToG6kat7CgKxWuEabK69__/view?usp=sharing)
 
 ## License
 
